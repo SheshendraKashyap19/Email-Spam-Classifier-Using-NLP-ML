@@ -64,3 +64,5 @@ Successfully classified emails into spam and ham with high accuracy (~95%+).
 Preprocessing combined with TF-IDF and Naive Bayes yielded reliable results.
 
 The model can be used for real-time email spam filtering.
+**DEPLOY**[
+https://email-spam-classifier-using-nlp-ml-imcm8snrfnn6fahvcyhvpt.streamlit.app/](url)
