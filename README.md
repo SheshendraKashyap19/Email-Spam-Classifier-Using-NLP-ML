@@ -1,9 +1,9 @@
-Email Spam Classifier using NLP and Machine Learning
-Project Overview
+**Email Spam Classifier using NLP and Machine Learning**
+**Project Overview**
 
 This project is an Email Spam Detection System that classifies emails into spam and ham (non-spam) using Natural Language Processing (NLP) and Machine Learning (ML) techniques. The system helps in automatically filtering unwanted emails and improving email productivity.
 
-Dataset
+**Dataset**
 
 Enron Email Spam Dataset from HuggingFace (bvk/ENRON-spam).
 
@@ -17,7 +17,7 @@ Label: 0 for ham, 1 for spam
 
 Filename (source reference)
 
-Technologies Used
+**Technologies Used**
 
 Python 3 and Google Colab
 
@@ -27,11 +27,11 @@ Scikit-learn for machine learning: Naive Bayes classifier, TF-IDF vectorization,
 
 Joblib for saving and loading models
 
-Project Workflow
+**Project Workflow**
 
 Data Loading: Extracted emails and labels from the dataset.
 
-Text Preprocessing:
+**Text Preprocessing:**
 
 Cleaned text by removing URLs, special characters, and whitespace
 
@@ -49,7 +49,7 @@ Prediction Function: Built a function for classifying new emails as spam or ham.
 
 Model Saving: Saved the trained model and vectorizer for future use.
 
-Challenges
+**Challenges**
 
 Handling nested email lists and dataset column variations
 
@@ -57,7 +57,7 @@ NLTK resource installation issues in Colab
 
 Preprocessing textual data effectively to improve model performance
 
-Results
+**Results**
 
 Successfully classified emails into spam and ham with high accuracy (~95%+).
 
